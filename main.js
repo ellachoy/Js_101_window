@@ -32,4 +32,8 @@ printAll('javascript', 'function','ella')
 const print=function(){
     console.log('print')   
 };
-
+//eg. getränkemascine
+function getCola() {
+    console.log('cola')
+}
+getCola();
