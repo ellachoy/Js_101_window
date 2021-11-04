@@ -28,3 +28,8 @@ function printAll(...args) {
     }
 }
 printAll('javascript', 'function','ella')
+
+const print=function(){
+    console.log('print')   
+};
+
