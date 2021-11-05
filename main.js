@@ -37,3 +37,11 @@ function getCola() {
     console.log('cola')
 }
 getCola();
+
+function add(a, b){
+  const sum= a+b;
+  return sum;
+}
+const result= add(3,4)
+console.log(result)
+
