@@ -33,15 +33,30 @@ const print=function(){
     console.log('print')   
 };
 //eg. getränkemascine
-function getCola() {
-    console.log('cola')
+function getCola(add) {
+    // console.log(add)
+    const result= add(12,13);
+    console.log(result);
 }
-getCola();
-
 function add(a, b){
   const sum= a+b;
   return sum;
 }
-const result= add(3,4)
-console.log(result)
+// const result= add(3,4)
+// console.log(result)
+getCola(add);
 
+
+function numbering(){
+    document.write(1);
+    i=0;
+    while(i<10){
+        document.write(i);
+        i +=1;
+    }
+}
+// for (let i=0; i<=30; i++){
+//     document.write(i);
+// }
+
+numbering();
