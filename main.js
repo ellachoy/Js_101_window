@@ -48,8 +48,7 @@ getCola(add);
 
 
 function numbering(){
-    document.write(1);
-    i=0;
+  let i=0;
     while(i<10){
         document.write(i);
         i +=1;
@@ -60,3 +59,27 @@ function numbering(){
 // }
 
 numbering();
+
+function get_num1(){
+    return 'ella'
+}
+function get_num2(){
+    return 'e12345'
+}
+console.log(get_num1())
+console.log(get_num2())
+//
+
+const print =function(){
+    console.log('print');
+};
+print();
+
+
+function randomquiz(answer, printYes, printNo){
+    if(answer ==='correct'){
+        printYes();
+    }else{
+        printNo();
+    }
+}
